@@ -1,0 +1,80 @@
+#wrapper {
+  height: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  color: #4EB6F7; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  background-color: #11191C;
+  border: 4px black;
+  float: center;
+  margin-left: 3px;
+  width: 70%;
+  height: 300px;
+  background-color: #11191C;
+  background-image: center;
+  background-size: 50%; }
+
+header {
+  font-size: 5rem;
+  float: center; }
+
+h1 {
+  border: 3px solid black;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  float: left; }
+
+h2 {
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif; }
+
+p {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  float: left; }
+
+#nav li {
+  border: 3px solid black;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 3px;
+  height: 120px;
+  margin: 3px;
+  height: 120px;
+  float: center; }
+
+#sidebar {
+  float: right;
+  border: 3px solid black;
+  margin: 3px;
+  margin-top: 0px;
+  width: 250px;
+  height: 300px;
+  background-color: #076FB0; }
+
+figcaption {
+  font-size: 0.75rem; }
+
+#content {
+  border: 3px solid black;
+  float: left;
+  margin-left: 3px;
+  width: 250px;
+  height: 300px;
+  background-color: #076FB0; }
+
+footer {
+  float: bottom;
+  clear: both;
+  margin: 3px;
+  border: 4px black;
+  height: 100px;
+  background-color: #11191C; }
+
+/*# sourceMappingURL=main.css.map */
