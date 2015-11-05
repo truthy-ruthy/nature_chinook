@@ -4,7 +4,7 @@
   margin-left: auto;
   margin-right: auto;
   float: center;
-  color: #4EB6F7; }
+  color: #97d4fa; }
 
 body {
   font-family: "Lato", sans-serif;
@@ -15,22 +15,20 @@ body {
   margin-left: 3px;
   width: 70%;
   height: 300px;
-  background-color: #11191C;
-  background-image: center;
-  background-size: 50%; }
+  background-color: #11191C; }
 
 header {
-  font-size: 5rem;
+  font-size: 4rem;
   float: center; }
 
 h1 {
   border: 3px solid black;
   font-size: 2rem;
   font-family: "Lato", sans-serif;
-  float: left; }
+  float: center; }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Lato", sans-serif; }
 
 p {
@@ -38,16 +36,14 @@ p {
   font-family: "Lato", sans-serif;
   float: left; }
 
-#nav li {
+#navbar {
   border: 3px solid black;
-  font-size: 1.25rem;
-  font-weight: bold;
   font-size: 1.5rem;
-  margin: 3px;
+  font-weight: bold;
+  margin: 20px;
   height: 120px;
-  margin: 3px;
-  height: 120px;
-  float: center; }
+  float: center;
+  display: inline; }
 
 #sidebar {
   float: right;
@@ -56,7 +52,8 @@ p {
   margin-top: 0px;
   width: 250px;
   height: 300px;
-  background-color: #076FB0; }
+  background-color: #076FB0;
+  background-image: 50%; }
 
 figcaption {
   font-size: 0.75rem; }
@@ -67,7 +64,11 @@ figcaption {
   margin-left: 3px;
   width: 250px;
   height: 300px;
-  background-color: #076FB0; }
+  background-color: #076FB0;
+  font: center; }
+
+.hoverme:hover {
+  background-color: red; }
 
 footer {
   float: bottom;
@@ -75,6 +76,8 @@ footer {
   margin: 3px;
   border: 4px black;
   height: 100px;
-  background-color: #11191C; }
+  background-color: #11191C;
+  font-size: 1rem;
+  font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */

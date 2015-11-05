@@ -1,9 +1,10 @@
+
 //style guide variables
 $headline-text: 2rem;// 300%//
-$header-text: 5rem;
+$header-text: 4rem;
 $body-text: 1rem; //100%;
-$nav-item: 1.25rem; //125%
-$sub-header: 1.5rem;//150%
+$nav-item: 1.5rem; //125%
+$sub-header: 2rem;//150%
 $byline: .75rem;//75%
 $font-family:'Lato', sans-serif;
 $background-color: #11191C;
@@ -18,7 +19,7 @@ $float-main: center;
   margin-left: auto;
   margin-right: auto;
   float: center;
-  color: #4EB6F7
+  color: #97d4fa
 }
 
 body {
@@ -31,8 +32,6 @@ body {
     width: 70%;
     height: 300px;
     background-color: $background-color;
-    background-image: center;
-    background-size: 50%;
 }
 
 header {
@@ -44,7 +43,7 @@ h1 {
   border: 3px solid black;
   font-size: $headline-text;
   font-family: $font-family;
-  float: left;
+  float: center;
 }
 
 h2 {
@@ -58,16 +57,16 @@ p {
  float: left;
 }
 
-#nav li {
+
+#navbar {
   border: 3px solid black;
   font-size: $nav-item;
   font-weight: $font-weight;
-  font-size: $sub-header;
-  margin: 3px;
-  height: 120px;
-   margin: 3px;
+  margin: 20px;
   height: 120px;
   float: center;
+  display: inline;
+
 }
 
 #sidebar {
@@ -78,6 +77,7 @@ p {
     width: 250px;
     height: 300px;
     background-color: $background-color2;
+    background-image: 50%
   }
 figcaption {
   font-size: $byline
@@ -90,6 +90,14 @@ figcaption {
     width: 250px;
     height: 300px;
     background-color: $background-color2;
+    font: center;
+}
+
+.hoverme {
+
+}
+.hoverme:hover {
+  background-color: red;
 }
 
 footer {
@@ -98,8 +106,8 @@ footer {
   margin: 3px;
   border: $border;
   height: 100px;
-  background-color: $background-color
+  background-color: $background-color;
+  font-size: $body-text;
+  font-weight: $font-weight;
 }
-
-
 
